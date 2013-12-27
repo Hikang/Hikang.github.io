@@ -1,0 +1,10 @@
+title:        Kang's blog
+tagline:      "Kang's blog: Every detail"
+url:          http://kangz.me
+author:
+  name:       "kangz"
+  email:      "darkblue.pie@gmail.com"
+markdown:     rdiscount
+permalink:    pretty
+pygments:     true
+paginate:     5
