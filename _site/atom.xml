@@ -4,7 +4,7 @@
  <title>Kang's blog</title>
  <link href="http://kangz.me/atom.xml" rel="self"/>
  <link href="http://kangz.me/"/>
- <updated>2013-12-27T14:25:30+08:00</updated>
+ <updated>2013-12-27T15:21:45+08:00</updated>
  <id>http://kangz.me</id>
  <author>
    <name>kangz</name>
@@ -13,88 +13,42 @@
 
  
  <entry>
-   <title>Hello, world!</title>
-   <link href="http://kangz.me/2012/02/08/hello-world/"/>
-   <updated>2012-02-08T00:00:00+08:00</updated>
-   <id>http://kangz.me/2012/02/08/hello-world</id>
-   <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;http://andhyde.com&quot;&gt;Hyde&lt;/a&gt;, the perfect companion to &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;, the popular static site generator. Hyde is an elegant, open source, mobile first theme for Jekyll. It includes lightweight styles and placeholder content to get you up and running with a simple blog in no time.&lt;/p&gt;
+   <title>产品比较</title>
+   <link href="http://kangz.me/2013/12/27/%E4%BA%A7%E5%93%81%E6%AF%94%E8%BE%83/"/>
+   <updated>2013-12-27T00:00:00+08:00</updated>
+   <id>http://kangz.me/2013/12/27/产品比较</id>
+   <content type="html">&lt;p&gt;当比较几款功能相似的产品及其市场的时候，需要比较的是什么？即使是同一类型的产品细节上也从来都是扯不清的，这从来都不是一个清晰的概念。&lt;/p&gt;
 
-&lt;p&gt;Hyde is also rather forward-thinking in that—in addition to Chrome, Safari, and Firefox—it is only compatible with Internet Explorer 9 and above.&lt;/p&gt;
+&lt;p&gt;单从用户方面来说，对产品的满意度是对产品本身的一个度量。推广和运营则是是恰到时机的引导。好的产品到底创造需求还是发现需求，这真的是个哲学的问题。用户的满意度是产品的口碑，因此构建一个产品的满意度应该怎么来度量是一个很大的问题。好的产品是创造产品价值呢还是单纯一味地去满足用户？其实静下心来想想，在思考的时候，还是需要定量的分析每种决策带来的效益。&lt;/p&gt;
 
-&lt;p&gt;Find out more and &lt;a href=&quot;https://github.com/mdo/hyde&quot;&gt;download a copy&lt;/a&gt; today from GitHub.&lt;/p&gt;
+&lt;p&gt;最近刚好在跟Coursera上的Desgin: The creation of artifacts，里面有几个观点，扒下来看看。&lt;/p&gt;
 
-&lt;p&gt;Thanks!&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Example content</title>
-   <link href="http://kangz.me/2012/02/07/example-content/"/>
-   <updated>2012-02-07T00:00:00+08:00</updated>
-   <id>http://kangz.me/2012/02/07/example-content</id>
-   <content type="html">&lt;p&gt;This blog post shows a few different types of content that's supported and styled with Hyde. Basic typography, images, and code are all supported.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Cum sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt;
-
-&lt;blockquote&gt;&lt;p&gt;Curabitur blandit tempus porttitor. &lt;strong&gt;Nullam quis risus eget urna mollis&lt;/strong&gt; ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;Etiam porta &lt;em&gt;sem malesuada magna&lt;/em&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt;
-
-&lt;h2&gt;Heading&lt;/h2&gt;
-
-&lt;p&gt;Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.&lt;/p&gt;
-
-&lt;h3&gt;Sub-heading&lt;/h3&gt;
-
-&lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Example code block
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.&lt;/p&gt;
-
-&lt;h3&gt;Sub-heading&lt;/h3&gt;
-
-&lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Praesent commodo cursus magna, vel scelerisque nisl consectetur et.&lt;/li&gt;
-&lt;li&gt;Donec id elit non mi porta gravida at eget metus.&lt;/li&gt;
-&lt;li&gt;Nulla vitae elit libero, a pharetra augue.&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;p&gt;Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.&lt;/p&gt;
+&lt;p&gt;用户的满意度是随着四个不同的需求维度的需求来衡量的，并且不同维度对满意度的贡献各不相同。&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Vestibulum id ligula porta felis euismod semper.&lt;/li&gt;
-&lt;li&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/li&gt;
-&lt;li&gt;Maecenas sed diam eget risus varius blandit sit amet non magna.&lt;/li&gt;
+&lt;li&gt;必须满足的需求（如手机要能打电话，云存储要可以安全有效的存储文件等）&lt;/li&gt;
+&lt;li&gt;跟用户满意度成线性增长的需求（如价格、获取成本、打折、促销、售后服务）&lt;/li&gt;
+&lt;li&gt;跟用户满意度无关的需求（即不管你做的多好，对大部分用户来说这个都无关紧要，参照诺基亚的4100万像素、索尼的三防可火锅）&lt;/li&gt;
+&lt;li&gt;潜在且重要的需求（iPhone前诺基亚也有触屏手机，也有应用商店啊，但是问题在于诺记很多潜在的细节没做好，没有充分在这个方面拉开于其他手机厂商的距离）&lt;/li&gt;
 &lt;/ol&gt;
 
 
-&lt;p&gt;Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.&lt;/p&gt;
+&lt;p&gt;首先，对于第一种需求，在用户心里，这是必须有的。这个层面的需求是最原始的阶段，这是归根结底的需求，比如QQ是交流工具必须要及时传送消息收发消息，浏览器是浏览工具必须能满足用户浏览网页，输入法必须方便的满足用户输入的需求等等。这个层面上的需求基本是处于用户满意度0以下的，因为这是必须有的，必须做好和做到的。&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;其次，对于第二种需求，刚刚过去的双11和双12大家都见到了，这个层面的需求是契合用户某种心理层面和生理层面的，可以直接作用于用户对产品的满意度，比如突然一天苹果决定把iphone在中国市场都定价为1999了，比如你新买了Macbook Pro就可以尽情使用苹果开发的个套办公套件了，等等。&lt;/p&gt;
 
-&lt;p&gt;Want to see something else added? &lt;a href=&quot;https://github.com/mdo/hyde/issues/new&quot;&gt;Open an issue.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;再者，第三点上，有的东西本来就是到了一个点就够了，即使继续追加也没有什么意义。比如现在的云盘，本来免费只有2G可以用，现在免费提升到30G了，有个说法是超过50G后下一G的满意度为0。这个时候，继续提升免费服务的优势就转变成了对用户满意度贡献基本没有的平行线了，30G满意度是这样，50G是这样，100G还是这样。&lt;/p&gt;
+
+&lt;p&gt;最后，第四点，当一款产品和服务的需求充分满足了前三类需求后，能大幅度提升用户满意程度的就是这些潜在的和细节性的需求（Latent Needs）。&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
-   <title>What's Jekyll?</title>
-   <link href="http://kangz.me/2012/02/06/whats-jekyll/"/>
-   <updated>2012-02-06T00:00:00+08:00</updated>
-   <id>http://kangz.me/2012/02/06/whats-jekyll</id>
-   <content type="html">&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/mojombo/jekyll/blob/master/README.markdown&quot;&gt;the project's readme&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;&lt;p&gt;Jekyll is a simple, blog aware, static site generator. It takes a template directory [...] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.&lt;/p&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;It's an immensely useful tool and one we encourage you to use here with Hyde.&lt;/p&gt;
-
-&lt;p&gt;Find out more by &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;visiting the project on GitHub&lt;/a&gt;.&lt;/p&gt;
+   <title>Hello, world!</title>
+   <link href="http://kangz.me/2013/11/08/hello-world/"/>
+   <updated>2013-11-08T00:00:00+08:00</updated>
+   <id>http://kangz.me/2013/11/08/hello-world</id>
+   <content type="html">&lt;p&gt;Hello Kitty.&lt;/p&gt;
 </content>
  </entry>
  
