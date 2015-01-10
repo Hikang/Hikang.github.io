@@ -646,7 +646,7 @@ a.sidebar-nav-item:focus {
   overflow: hidden; /* clearfix */
   /*margin-left: -1rem;
   margin-right: -1rem;*/
-  margin: 5rem 0 2rem 0;
+  margin: 10rem 0 2rem 0;
   color: #ccc;
   text-align: center;
 }
