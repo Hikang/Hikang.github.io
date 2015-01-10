@@ -9,12 +9,12 @@ permalink:        pretty
 
 # Setup
 title:            思い出
-tagline:          'Time is limited, To be a better man'
-description:      'Hello,World! Here is my personal weblog about technology and life.'
-url:              http://shelldone.com
+tagline:          'Dear is Deer'
+description:      'You may say I''m a dreamer but I''m not the only one.'
+url:              http://kangz.me
 
 author:
-  name:           'SooHu'
+  name:           '广隶'
   url:            https://Hikang.github.io
 
 paginate:         5
