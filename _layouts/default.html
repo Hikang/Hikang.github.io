@@ -1,32 +1,62 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0, maximum-scale=1">
+    <link href="/public/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="http://gmpg.org/xfn/11" rel="profile">
 
-  {% include head.html %}
+    <title>
+      {% if page.title %}{{ page.title }} &middot; {% endif %}
+      {{ site.tagline }}
+    </title>
 
-  <body class="">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/public/css/hyde.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600,700|Abril+Fatface">
 
-    {% include sidebar.html %}
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/public/favicon.png">
 
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-         content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          <div class="masthead-title">
-            <a href="/" title="Home"><span data-hover="HuS">{{ site.title }}</span></a>
-            <small>{{ site.tagline }}</small>
-          </div>
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  </head>
+  <body>
+    <header class="masthead">
+      <div class="masthead-inner">
+	  <a href="http://kangz.me/"><p align="center"><img src=/public/touch-icon-144-precomposed.png></p>
+        <h2 align="center">kangz's Blog</h2></a>
+        <div class="colophon">
+          <ul class="colophon-links">
+            <li align="center">
+              <a href="https://github.com/Hikang" target="_blank">GitHub</a>
+            </li>
+	        <li align="center">
+              <a href="http://www.douban.com/people/Hikang.z/" target="_blank">豆瓣</a>
+            </li>
+	        <li align="center">
+	        <a href="http://www.zhihu.com/people/Hikang" target="_blank">知乎</a>
+            </li>
+	        <li align="center">
+	        <a href="http://weibo.com/1644752893/profile?topnav=1&wvr=5&user=1" target="_blank">微博</a>
+            </li>
+			<li align="center">
+	        <a href="http://instagram.com/hikangz" target="_blank">Inst</a>
+            </li>
+			<li align="center">
+	        <a href="http://kangz.me/atom.xml" target="_blank">RSS</a>
+            </li>
+          </ul>
+		  <br>
+          <p align="center">This blog is powered by kangz<br>&copy; 2013. {{ site.author.name }} All rights reserved.<br><br><br></p>
         </div>
       </div>
+    </header>
 
-      <div class="container content">
-        {{ content }}
-      </div>
+    <div class="content container">
+      {{ content }}
     </div>
-    
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-    {% include footer.html %}
 
-    <!-- "The ending isn’t any more important than the moments leading to it." -Dr. Eva Rosalene, To The Moon -->
   </body>
 </html>
