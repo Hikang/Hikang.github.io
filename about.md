@@ -9,4 +9,4 @@ title: About
 A Product Designer @ NetEase
 
 
-![](/public/img/sns/douban_F.png)
+![](/public/img/douban_F.png)
