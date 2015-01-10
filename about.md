@@ -6,7 +6,7 @@ title: About
 
 ###关于我
 
-Product Designer @ NetEase
+A Product Designer @ NetEase
 
 
-### 汪汪汪
+### Wish List
