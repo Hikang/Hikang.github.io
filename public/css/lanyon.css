@@ -607,7 +607,7 @@ a.sidebar-nav-item:focus {
 
 /*阅读全文*/
 .post-content .readmore a {
-  font-size: 100rem;
+  font-size: 0.7rem;
 }
 /*阅读全文hover样式*/
 .post-content .readmore a:hover,
@@ -871,7 +871,7 @@ div.article span {
   font-size: .7rem;
 }
 div.article a {
-  font-size: .7rem;
+  font-size: 1rem;
 }
 div.article a:hover,
 div.article a:focus {
