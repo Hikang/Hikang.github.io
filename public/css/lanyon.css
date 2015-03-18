@@ -103,7 +103,7 @@ h4, h5, h6 {
 }
 
 p {
-  font-size: 0.7rem;
+  font-size: 1.0rem;
   line-height: 1.5;
   margin-top: 0;
   margin-bottom: 1.5rem;
@@ -516,7 +516,7 @@ a.sidebar-nav-item:focus {
 .post {
   border: 1px solid rgb(200,200,200);
   box-shadow: 3px 5px 3px rgb(220,220,220);
-  border-radius: 3px;
+  border-radius: 5px;
 }
 .post-name {
   margin-top: 4rem;
@@ -602,12 +602,12 @@ a.sidebar-nav-item:focus {
 }
 /*文章内容*/
 .post-content {
-  margin-top: 100px;
+  margin-top: 8px;
 }
 
 /*阅读全文*/
 .post-content .readmore a {
-  font-size: 1.2rem;
+  font-size: 0.7rem;
 }
 /*阅读全文hover样式*/
 .post-content .readmore a:hover,
