@@ -525,7 +525,7 @@ a.sidebar-nav-item:focus {
   border-bottom: 1px solid #eee;
 }
 .post  .post-content {
-    padding: 1 105px;
+    padding: 0 35px;
 }
 
 /*头像*/
@@ -607,7 +607,7 @@ a.sidebar-nav-item:focus {
 
 /*阅读全文*/
 .post-content .readmore a {
-  font-size: 0.7rem;
+  font-size: 1.2rem;
 }
 /*阅读全文hover样式*/
 .post-content .readmore a:hover,
