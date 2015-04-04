@@ -4,15 +4,18 @@ title: About
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  Hey there! This is kangz’s blog. It’s all about my work and life in beijing. 
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
 
-There are currently two themes built on Poole:
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+I am now a product designer @ NetEase Mobile Center manily focusing on Data System.
+
+I used to work @ [花田]（http://love.163.com）(A Dating Social Network of NetEase) as a product manager in charge of Anti-Cheat and Web product. 
+ 
+
+* [知乎](http://www.zhihu.com/people/1705)
+* [微博](http://weibo.com/hikang/)
 
 Learn more and contribute on [GitHub](https://github.com/poole).
 
