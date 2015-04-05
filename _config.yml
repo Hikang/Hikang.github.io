@@ -1,6 +1,7 @@
 # Site settings
 title: 'Deer Hunter' # Your Title
 tagline: 'Live 4 nothing or die 4 something.' # A brief tagline for your site
+tagline: '&copy; {{ site.time | date: '%Y' }}. All rights reserved.'
 sidebar_image: /images/cover.jpg
 
 # Build settings
