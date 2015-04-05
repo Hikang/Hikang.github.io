@@ -1,67 +1,23 @@
----
-title: Emerald | A Jekyll blog
----
 <!DOCTYPE html>
 <html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{{ site.title + page.title }}</title>
+  <meta name="viewport" content="width=device-width">
 
-{% include head.html %}
+  <!-- syntax highlighting CSS -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
 
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/reset.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+  <!-- Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Bitter:400,700,400italic|Open+Sans:400italic,600italic,400,600' rel='stylesheet' type='text/css'>
+</head>
 <body>
-	<div id="wrap">
-	  	
-	  	<!-- Navigation -->
-	  	{% include menu.html %}
-    
-    <!-- Icon menu -->
-	  <a href="#" id="nav-menu">
-	  	<div id="menu"></div>
-	  </a>
-
-      <!-- Header -->
-	    {% include header.html %}
-
-    <!-- Main content -->
-	  <div id="container">
-
-	  	{{ content }}
-		
-		  <!-- Pagination links -->
-      {% if paginator.total_pages > 1 %}
-        <div class="pagination">
-          {% if paginator.previous_page == 1 %}
-            <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}" class="page-item">&laquo;</a>
-          {% elsif paginator.previous_page%}
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="page-item">&laquo;</a>
-          {% else %}
-            <span class="page-item">&laquo;</span>
-          {% endif %}
-        
-          {% for page in (1..paginator.total_pages) %}
-            {% if page == paginator.page %}
-              <span class="page-item">{{ page }}</span>
-            {% elsif page == 1 %}
-              <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}" class="page-item">{{ page }}</a>
-            {% else %}
-              <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" class="page-item">{{ page }}</a>
-            {% endif %}
-          {% endfor %}
-        
-          {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="page-item">&raquo;</a>
-          {% else %}
-            <span class="page-item">&raquo;</span>
-          {% endif %}
-        </div>
-        {% endif %}
-
-	  </div>
-	    
-	    <!-- Footer -->
-	    {% include footer.html %}
-
-	    <!-- Script -->
-      {% include script.html %}
-
-	</div>
+  {{ content }}
 </body>
 </html>
