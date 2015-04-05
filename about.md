@@ -1,22 +1,21 @@
 ---
-layout: page
-title: About
+layout: default
+title: About Emerald
 ---
+## About
+Emerald is a minimal theme created for Jekyll. The main purpose of Emerald is to provide a clear theme for those who want a blog ready to use, focused on the content and mobile-first.
 
-<p class="message">
-  Hey there! This is kangz’s blog. It’s all about my work and life in beijing. 
-</p>
+For further details on Emerald, please visit the [repository on Github](https://github.com/KingFelix/emerald/).
 
+![Emerald](/img/Emerald01.png "Emerald")
 
+### Setup
+Emerald may be installed by simply downloading the .zip folder frome the [repository on Github](https://github.com/KingFelix/emerald/archive/master.zip).
 
-I am now a product designer @ NetEase Mobile Center manily focusing on Data System.
+After extracting the content from the folder into the selected directory, you can type ``jekyll serve`` from the terminal, than open your browser to ``0.0.0.0:4000/emerald/`` and you will find there.
 
-I used to work @ [花田](http://love.163.com) (A Dating Social Network created by NetEase) as a product manager in charge of Anti-Cheat and Web product design. 
+Additionally it is possible to fork the repository and using Github Pages as hosting. By following this way it will enough change the ``baseurl`` value into the ``_config.yml`` file, with the directory name of your project (for example /blog) or with a simply "/" (slash) if you want install Emerald in the root. 
 
-Apart from my blog, you can find me below. : )
- 
+Last but not last: the [Jekyll documentation](http://jekyllrb.com) is the best starting point!
 
-* [知乎](http://www.zhihu.com/people/1705)
-* [微博](http://weibo.com/hikang/)
-
-Welcome!
+Enjoy!

@@ -1,26 +1,28 @@
-# Dependencies
-markdown:            redcarpet
-highlighter:         pygments
-
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-relative_permalinks: true
-
-# Setup
-title:               kangz’s blog
-tagline:             'Dear is Deer'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 http://kangz.me
-baseurl:             /
-paginate:            5
-
-# About/contact
+# Site settings
+title: Emerald | A simple Jekyll blog
+description: "A minimal blog template, build with Jekyll."
+url: "http://www.jacoporabolini.com/emerald"
 author:
-  name:              kangz
-  url:               
-  email:             
+  name: "Jacopo Rabolini"
+  url: "http://www.jacoporabolini.com"
 
-# Custom vars
-version:             1.0.0
+# Build settings
+baseurl: /emerald/ # Change this to your relative path (ex: /blog/), or leave just a /
+markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 8
+paginate_path: /page:num/
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Custom variables
+version: "1.0.1"
