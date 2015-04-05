@@ -1,35 +1,36 @@
-## About
-Emerald is a minimal theme created for Jekyll. The main purpose of Emerald is to provide a clear theme for those who want a blog ready to use, focused on the content and mobile-first.
+Strange Case
+============
 
-![Emerald](/img/Emerald01.png "Emerald")
+Strange Case is a simple, clean and responsive theme for Jekyll. 
 
-## Setup & usage
-Emerald may be installed by simply downloading the .zip folder frome the [repository on Github](https://github.com/KingFelix/emerald/archive/master.zip).
 
-After extracting the content from the folder into the selected directory, you can type ``jekyll serve`` from the terminal, than open your browser to ``0.0.0.0:4000/emerald/`` and you will find there.
+### Demo 
 
-Additionally it is possible to fork the repository and using Github Pages as hosting. By following this way it will enough change the ``baseurl`` value into the ``_config.yml`` file, with the directory name of your project (for example /blog) or with a simply "/" (slash) if you want install Emerald in the root.
+[Demo](http://thephuse.github.io/strange_case/)
 
-### Branch
-Emerald has two branch: 
-- ``master``: is for developing pourpose.
-- ``gh-pages``: is only for demo site.  
+### Overview 
 
-### Baseurl
-Emerald was tought to be used mainly with Github, in particular into [project site](https://pages.github.com/). For this reason they have been included several tags ``{{ site.baseurl }}`` to refer to the "/emerald/" directory.
-You can change the "baseurl" value into the ``config.yml`` file, to match your directory (for example "/blog/") or the root of your project. In that case you must set the "baseurl" value to "/".
+* Fixed Sidebar with cover image
+* Minimal design 
+* Easy to configure
+* Browser support: Latest releases of Chrome, Safari, Firefox, Mobile Safari and IE 9+.
 
-### Typography
-To maintain the vertical rythm, it has been applied a **Typographic scale** as a modular scale, with a baseline set to 24px. To maintain this rythm you need to insert elements like image, video or other contents with a 24px (or multiple) height as refer.
+### Screenshots
 
-Last but not last: the [Jekyll documentation](http://jekyllrb.com) is the best starting point! 
+![screenshot](/images/screenshot1.png)
+![screenshot](/images/screenshot2.png)
 
-## Author
+### Setup
 
-### Jacopo Rabolini
+1. Install [Jekyll](http://jekyllrb.com/)
+2. Fork or [download](https://github.com/thephuse/strange_case) this theme repo
+3. Edit the `_config.yml` file (if you make any additional changes to this file, you will need to stop and restart your command in the next step)
+4. From your command line, switch to your site directory and build using `jekyll serve`
+5. Site will be accessible by viewing http://localhost:4000/strange_case/
 
-- Web site: [www.jacoporabolini.com](http://www.jacoporabolini.com)
-- Google+: [+JacopoRabolini](https://plus.google.com/u/0/+JacopoRabolini/posts)
+### Download
 
-## License
-Emerald is released under [MIT License](license.md).
+[Download](https://github.com/thephuse/strange_case)
+
+### License
+* [MIT](http://opensource.org/licenses/MIT)
