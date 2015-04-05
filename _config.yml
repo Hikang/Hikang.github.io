@@ -4,10 +4,10 @@ description: "A minimal blog template, build with Jekyll."
 url: "http://www.jacoporabolini.com/emerald"
 author:
   name: "Jacopo Rabolini"
-  url: "http://www.jacoporabolini.com"
+  url: "kangz.me"
 
 # Build settings
-baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
+baseurl:  / # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 source: .
 destination: ./_site
