@@ -1,10 +1,11 @@
 # Site settings
 title: 'Side Show' # Your Title
-tagline: 'All rights reserved by kangz.' # A brief tagline for your site
+tagline: 'All rights reserved by kangz.hfhfhhf
+仿佛家居服' # A brief tagline for your site
 tagline: 'All rights reserved by kangz.'
 sidebar_image: /images/cover.jpg
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 baseurl:  # the subpath of your site, e.g. /blog/
